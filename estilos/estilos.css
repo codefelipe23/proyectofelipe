@@ -11,7 +11,11 @@
 a {
     text-decoration: none;
     color: black;
-    padding: 30px 50px;
+    padding: 50px 50px;
+}
+
+a:hover{
+    color:whitesmoke
 }
 
 nav ul {
@@ -64,8 +68,9 @@ p{
 
 img{
     width: 100%;
+    height: 750px;
     margin-top: 10px;
-    border: 10px double red;
+    border: 10px solid black;
 }
 
 .padre {
@@ -76,21 +81,20 @@ img{
 }
 
 .hijo {
-    padding: 10px;
+    padding: 15px;
 }
 
 .icono{
     border: none;
+    height: 48px;
+    width: 48px;
 }
 
 footer {
     background-color: brown;
 }
 
-.icono{
-    width: 48px;
-    height: 48px;
-}
+
 
 .redes {
     display: flex;
