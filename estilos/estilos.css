@@ -14,8 +14,8 @@ a {
     padding: 50px 50px;
 }
 
-a:hover{
-    color:whitesmoke
+a:hover {
+    color: white;
 }
 
 nav ul {
@@ -30,8 +30,11 @@ body{
 }
 
 header{
-    background-color: brown;
     height: 55px;
+}
+
+.blue {
+    background-color: rgb(71, 89, 246);
 }
 
 
@@ -91,7 +94,7 @@ img{
 }
 
 footer {
-    background-color: brown;
+    background-color: rgb(71, 89, 246);
 }
 
 
