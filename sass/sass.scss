@@ -1,0 +1,58 @@
+
+@import "generales";
+
+.blue {
+    background-color: rgb(71, 89, 246);
+}
+
+
+h1, h2{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    color: black;
+    padding: 20px;
+}
+
+p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    color: black;
+    
+}
+
+.subTitulo {
+    background-color: black;
+    color: aquamarine;
+}
+
+.primerParrafo {
+    text-transform: uppercase;
+}
+
+img{
+    width: 100%;
+    height: 750px;
+    margin-top: 10px;
+    border: 10px solid black;
+}
+
+.padre {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.hijo {
+    padding: 15px;
+}
+
+
