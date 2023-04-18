@@ -14,9 +14,6 @@ body{
     background-color: aliceblue
 }
 
-header{
-    height: 55px;
-}
 
 .icono{
     border: none;
@@ -25,13 +22,12 @@ header{
 }
 
 footer {
-    background-color: rgb(71, 89, 246);
+    background-color: $color;
 }
-
-
 
 .redes {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+

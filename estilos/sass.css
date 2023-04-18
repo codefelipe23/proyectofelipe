@@ -9,10 +9,6 @@ body {
   background-color: aliceblue;
 }
 
-header {
-  height: 55px;
-}
-
 .icono {
   border: none;
   height: 48px;
@@ -27,6 +23,14 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+header {
+  height: 55px;
+}
+header nav {
+  width: 100%;
+  margin: o auto;
 }
 
 .blue {
