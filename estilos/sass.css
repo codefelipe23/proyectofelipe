@@ -137,7 +137,7 @@ footer .redes {
 
 @media (min-width: 1500px) {
   body {
-    padding: 0 4em;
+    padding: 0;
   }
   .contact-wrapper {
     display: grid;
