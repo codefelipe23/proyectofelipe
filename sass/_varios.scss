@@ -1,0 +1,15 @@
+
+.padreVarios {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px;
+    .hijoVarios {
+        padding: 10px;
+    }
+}
+
+.h2varios {
+    font-size: 20px;
+}

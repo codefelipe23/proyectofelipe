@@ -4,6 +4,7 @@
 @import "nav";
 @import "footer";
 @import "contactanos";
+@import "varios";
 
 
 
@@ -52,6 +53,13 @@ img{
     border: 10px solid rgba(0, 0, 0, 0.456)
 }
 
+img:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    }
+
+
 .padre {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -63,6 +71,8 @@ img{
 .hijo {
     padding: 15px;
 }
+
+
 
 
 
